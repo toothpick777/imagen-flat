@@ -1,4 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux
+#Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux
 
 ### Linux ###
@@ -35,5 +35,4 @@
 # Ignore all local history of files
 .history
 .ionide
-
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux
