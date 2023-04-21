@@ -1,0 +1,156 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+} */
+
+/* .desktop {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+} */
+
+/* ARRIBA DE LA COMPUTADORA */
+
+.background__case {
+    background-color: lightgray;
+    width: 22rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    transform: translate(7px, 120px);
+    box-shadow: 10px -5px 26px -5px black;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    width: 22rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    z-index: 11;
+    position: relative;
+}
+
+.glass {
+    position: relative;
+    margin: 0 auto;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    background-color: rgba(0, 255, 255,.5);
+    z-index: 12;
+}
+
+div.glass div:nth-child(1) {
+    background-color: rgba(127, 255, 212,0.7);
+    box-shadow: 0 0 6px rgb(127, 255, 212);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transform: translate(15.3rem, 0.2rem);
+    position: absolute;
+}
+
+div.glass div:nth-child(2) {
+    background-color: rgba(127, 255, 212,0.7);
+    box-shadow: 0 0 6px rgb(127, 255, 212);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    transform: translate(12.3rem, .4rem);
+    position: absolute;
+}
+
+/* ABAJO DE LA COMPUTADORA */
+
+.keyboard {
+    width: 22rem;
+    height: 3rem;
+    background-color: lightgrey;
+    z-index: 15;
+    transform: translate(-18px, -29px) skew(310deg, 0deg);
+    border-end-end-radius: 56px;
+    border-end-start-radius: 12px;
+    border-start-start-radius: 92px;
+    border-start-end-radius: 28px;
+}
+
+.background__keyboard {
+    z-index: 16;
+    transform: translate(-21px, 4px) skew(317deg, 0deg);
+    border-end-end-radius: 56px;
+    border-end-start-radius: 12px;
+    border-start-start-radius: 92px;
+    border-start-end-radius: 28px;
+    width: 22rem;
+    height: 3rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 15px -3px 30px 3px;
+}
+
+.keys {
+    transform: skew(317deg, 0deg);
+}
+
+.first-keys {
+    background-color: azure;
+    border-radius: 4px;
+    width: 12rem;
+    height: 1.2rem;
+    transform: translate(29px, 6px);
+}
+
+.second-keys {
+    background-color: azure;
+    border-radius: 4px;
+    width: 6rem;
+    height: 0.6rem;
+    transform: translate(75px, 9px);
+}
+
+.third-keys {
+    background-color: azure;
+    border-radius: 4px;
+    width: 5.2rem;
+    height: 0.6rem;
+    transform: translate(154px, -11px);
+}
+
+.arrow-top {
+    background-color: azure;
+    border-radius: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    transform: translate(191px, -11px) skew(0deg, 0deg);
+}
+
+.arrow-right {
+    background-color: azure;
+    border-radius: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    transform: translate(203px, -10px) skew(0deg, 0deg);
+}
+
+.arrow-bottom {
+    background-color: azure;
+    border-radius: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    transform: translate(193px, -14px) skew(0deg, 0deg);
+}
+
+.arrow-left {
+    background-color: azure;
+    border-radius: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    transform: translate(183px, -18px) skew(0deg, 0deg);
+}
